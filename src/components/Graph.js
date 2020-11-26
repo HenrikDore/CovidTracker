@@ -1,4 +1,5 @@
 import { Line } from 'react-chartjs-2'
+import '../GraphStyling.css'
 
 const Graph = (props) => {
   return (
@@ -6,7 +7,8 @@ const Graph = (props) => {
       style={{
         width: 600,
         height: 600,
-        margin: '50px auto'
+        margin: '40px auto',
+        textAlign: 'center'
       }}
     >
       <Line
